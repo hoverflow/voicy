@@ -1,0 +1,27 @@
+{
+  "name": "voicy-webapp",
+  "version": "0.1.0",
+  "description": "Voicy WebApp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoverflow/voicy-webapp.git"
+  },
+  "keywords": [
+    "voicy",
+    "web",
+    "app"
+  ],
+  "author": "Hoverflow",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hoverflow/voicy-webapp/issues"
+  },
+  "homepage": "https://github.com/hoverflow/voicy-webapp#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
