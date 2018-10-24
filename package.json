@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/hoverflow/voicy-webapp#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "express-session": "^1.15.6"
   }
