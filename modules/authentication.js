@@ -19,6 +19,22 @@ exports.route = function(req,res)
     }
 };
 
+/* login
+*  login user to webapp 
+*/
+exports.login = function(req,res)
+{
+    console.log('login');
+    if(req.body)
+    {
+        if(req.body.email)
+        {
+            req.session.auth = true;
+            res.redirect('/assets/index.html?ts='+ (new Date().getTime()));
+        }
+    }
+};
+
 /* logout
 *  destroy current session 
 */
